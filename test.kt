@@ -19,9 +19,11 @@ fun main() {
     //Zadanie 3
     var totalSeconds: Int = 86450
     var hours = totalSeconds / 3600
-    var minutes = totalSeconds / 60
+    var minutes = hours / 60
+    var seconds = totalSeconds % 60
 
     println("Zadanie 3")
     println("Hours = ${hours}")
     println("Minutes = ${minutes}")
+    println("Seconds = ${seconds}")
 }
