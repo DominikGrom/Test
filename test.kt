@@ -3,7 +3,7 @@ fun main() {
     var pi: Double = 3.14
     var r = 5
 
-    var poleK  = pi + (r*r)
+    var poleK  = pi * (r*r)
     println("Zadanie 1")
     println("Pole kola = ${poleK} \n")
 
